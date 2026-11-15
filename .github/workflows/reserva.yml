@@ -1,0 +1,48 @@
+name: Reserva na nuvem
+
+# Roda a cada 30 min, mas só varre se o Mac estiver sem dar sinal (ver run.py --gate).
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Varrer mesmo com o Mac vivo (teste)"
+        default: "0"
+
+concurrency:
+  group: reserva
+  cancel-in-progress: false
+
+jobs:
+  varrer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      MAC_HEARTBEAT: ${{ vars.MAC_HEARTBEAT }}
+      FORCE: ${{ github.event.inputs.force }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Decidir se varre
+        id: gate
+        run: python run.py --gate
+      - name: Histórico de preços (cache)
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: data/precos.sqlite
+          key: db-${{ github.run_id }}
+          restore-keys: db-
+      - name: Instalar Chromium
+        if: steps.gate.outputs.run == 'true'
+        run: playwright install --with-deps chromium
+      - name: Varredura
+        if: steps.gate.outputs.run == 'true'
+        run: mkdir -p data && python run.py --once

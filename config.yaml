@@ -1,0 +1,63 @@
+# ============================================================
+#  Monitor de Lava-Louças — Black Friday 2026 (27/11)
+# ============================================================
+
+budget:
+  meta: 2500             # alerta 🟢: qualquer modelo 220V novo até aqui
+  opportunity_cap: 3300  # alerta 🔥: só modelo "premium" até este teto...
+  opportunity_min_discount: 0.25  # ...E ≥25% abaixo do preço normal que o bot viu (mediana 30d)
+  min_plausible_price: 900        # abaixo disso é peça/acessório/anúncio falso
+  accept_bivolt: true
+  min_servicos: 10        # capacidade mínima (10 basta; função pesa mais que capacidade). 0 = qualquer
+  require_inox: true      # só aço inox (inclui "Black Inox"); preta/branca/cinza sem inox são ignoradas
+  inox_unknown_ok: true   # título sem cor: deixa passar (confira o acabamento no anúncio)
+  # Funções essenciais (o anúncio precisa mencionar TODAS na ficha/descrição).
+  # Para afrouxar, apague uma linha. Opções: ciclo_rapido, sensor_sujeira, meia_carga, higienizacao
+  required_features: [ciclo_rapido, sensor_sujeira, meia_carga, higienizacao]
+
+schedule:
+  normal_minutes: 120    # até 22/11
+  blackfriday_minutes: 30  # 23/11 a 30/11
+  blackfriday_window: ["2026-11-23", "2026-11-30"]
+  quiet_hours: [1, 6]    # não roda de 01h às 06h (loja não muda preço e reduz risco de bloqueio)
+  alert_cooldown_hours: 12
+
+# Reserva na nuvem (GitHub Actions): só varre quando o sinal do Mac (MAC_HEARTBEAT) tem mais de stale_minutes
+backup:
+  repo: gabrielreiismar/monitor-lavaloucas
+  stale_minutes: 45
+
+# mercadolivre desligado: bloqueia navegador automatizado (account-verification). Pendente: API oficial.
+stores: [amazon, categoria]
+
+# Páginas de categoria (Fast Shop + lojas oficiais). Uma leitura por loja; o modelo é achado pelo título.
+category_pages:
+  - {name: Fast Shop,  url: "https://site.fastshop.com.br/eletrodomesticos/lava-loucas"}
+  - {name: Electrolux, url: "https://loja.electrolux.com.br/eletrodomesticos/lava-loucas"}
+  - {name: Brastemp,   url: "https://www.brastemp.com.br/eletrodomesticos/lava-loucas/14-servicos"}
+  - {name: Midea,      url: "https://www.midea.com.br/eletrodomesticos/lava-loucas"}
+
+# ------------------------------------------------------------
+#  Modelos. `match`: TODOS os termos (sem acento, minúsculo) precisam estar no título.
+#  `premium: true` = elegível ao alerta 🔥 (modelo caro que pode despencar).
+#  Modelos das fontes pesquisadas em nov/2026; confira o código exato no anúncio.
+# ------------------------------------------------------------
+models:
+  - {key: midea_dwa14,        query: "lava louças midea 14 serviços dwa14 220v", match: [midea, dwa14],      premium: false}
+  - {key: philco_pll14b,      query: "lava louças philco 14 serviços pll14b 220v", match: [philco, pll14b],   premium: false}
+  - {key: electrolux_ll14x,   query: "lava louças electrolux ll14x 220v",          match: [electrolux, ll14x], premium: true}
+  - {key: electrolux_ll14p,   query: "lava louças electrolux ll14p experience 220v", match: [ll14p],          premium: true}
+  - {key: electrolux_lp14x,   query: "lava louças electrolux lp14x pro 220v",      match: [lp14x],            premium: true}
+  - {key: electrolux_lp14v,   query: "lava louças electrolux lp14v pro series 220v", match: [lp14v],          premium: true}
+  - {key: samsung_dw60dg550,  query: "lava louças samsung 14 serviços dw60dg550 220v", match: [samsung, dw60], premium: true}
+  - {key: lg_d1454tfs,        query: "lava louças lg d1454tfs 14 serviços 220v",  match: [d1454],            premium: true}
+  - {key: brastemp_blf14ar,   query: "lava louças brastemp ative blf14ar 220v",    match: [blf14],            premium: true}
+  - {key: brastemp_blf62,     query: "lava louças brastemp eclipse blf62 15 serviços 220v", match: [blf62],   premium: true}
+  - {key: brastemp_blb14gr,   query: "lava louças brastemp gourmand blb14gr embutir 220v", match: [blb14],   premium: true}
+  - {key: panasonic_np6m2,    query: "lava louças panasonic np-6m2 14 serviços 220v", match: [panasonic],    premium: false}
+
+# Varredura genérica: pega modelo que não está na lista (só alerta 🟢, pois não tem referência de preço)
+radar_queries:
+  - "lava louças 14 serviços 220v"
+  - "lava louças 15 serviços 220v"
+  - "lava louças de embutir 14 serviços 220v"

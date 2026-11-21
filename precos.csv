@@ -1,0 +1,167 @@
+data_hora_utc,loja,modelo,preco,voltagem,url
+2026-11-15 16:17,Amazon,brastemp_blf62,4556.2,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Servi%C3%A7os-Brastemp-Eclipse-Collection/dp/B0DDZR2ZMJ
+2026-11-15 16:18,Amazon,panasonic_np6m2,4749.05,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Panasonic-Servi%C3%A7os-NP-6M1MBKBRP-NP-6M1MBKBR/dp/B082YCN9T4
+2026-11-15 16:18,Amazon,panasonic_np6m2,4688.1,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Embutir-Panasonic-Servi%C3%A7os-NP-6M2FTKBRP/dp/B07X47VCQ8
+2026-11-15 16:19,Amazon,radar,2519.1,220,https://www.amazon.com.br/LAVA-LOUCAS-MIDEA-SERVICOS-CINZA-220V/dp/B096HDHXQH
+2026-11-15 16:19,Amazon,radar,3283.46,220,https://www.amazon.com.br/Electrolux-Lava-Lou%C3%A7a-Servi%C3%A7os-Programa-LS14E/dp/B0FLQJJ47J
+2026-11-15 16:19,Amazon,radar,2435.9,220,https://www.amazon.com.br/Lou%C3%A7as-Servi%C3%A7os-Philco-Digital-PLL14A/dp/B0H2WWFRH4
+2026-11-15 16:19,Amazon,radar,1889.0,220,https://www.amazon.com.br/Lou%C3%A7as-HQ-Digital-Servi%C3%A7os-HQ-LL14SD/dp/B0GWJHCZQX
+2026-11-15 16:19,Amazon,radar,2706.54,220,https://www.amazon.com.br/Electrolux-Lava-Lou%C3%A7a-Servi%C3%A7os-Programa-LS10E/dp/B0FH5R4M75
+2026-11-15 16:20,Amazon,radar,3349.0,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Servi%C3%A7os-Brastemp-Smart-Sensor/dp/B0DKG44NYQ
+2026-11-15 16:20,Amazon,radar,3399.0,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-Servi%C3%A7os-Cinza-Touch-Midea/dp/B0HJ35PKHW
+2026-11-15 16:20,Amazon,radar,2971.21,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-EOS-Servi%C3%A7os-ELL142P-220V/dp/B0F7J79NL4
+2026-11-15 16:20,Amazon,radar,2971.21,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-EOS-Premium-Servi%C3%A7os-ELL142S/dp/B0F7Y4X8HY
+2026-11-15 16:20,Amazon,radar,2662.27,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-EOS-Premium-Servi%C3%A7os-ELL142B/dp/B0F7J3GCBB
+2026-11-15 16:20,Amazon,radar,2948.99,220,https://www.amazon.com.br/Electrolux-Lava-Lou%C3%A7as-Servi%C3%A7os-Programa-Higieniza%C3%A7%C3%A3o/dp/B0H7F85KND
+2026-11-15 16:21,Amazon,radar,2378.99,220,https://www.amazon.com.br/Lou%C3%A7as-HQ-Digital-Servi%C3%A7os-HQ-LL14SD/dp/B0GXBL9N2J
+2026-11-15 16:21,Amazon,radar,5034.04,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Samsung-servi%C3%A7os-Black-Inox/dp/B0DK469LHP
+2026-11-15 16:21,Amazon,radar,3662.1,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-Servi%C3%A7os-Black-Smart-Midea/dp/B0H4RLJG8V
+2026-11-15 16:21,Amazon,radar,2899.0,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-servi%C3%A7os-Midea-Smart/dp/B0DVHYXWFC
+2026-11-15 16:22,Amazon,radar,3894.05,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Brastemp-Servi%C3%A7os-Smart-Sensor/dp/B0DKG4TTNP
+2026-11-15 16:22,Amazon,radar,1808.1,220,https://www.amazon.com.br/Lou%C3%A7as-Philco-Servi%C3%A7os-Op%C3%A7%C3%B5es-Lavagem/dp/B0CTRQCKML
+2026-11-15 16:23,Amazon,radar,4749.05,220,https://www.amazon.com.br/Samsung-Lava-lou%C3%A7as-servi%C3%A7os-Inox-220V/dp/B0DK46WSWD
+2026-11-15 16:24,Fast Shop,radar,3514.05,220,https://site.fastshop.com.br/lava-loucas-brastemp-com-smart-sensor-inox-com-15-servicos--05-programas-de-lavagem---blf61ar-brblf61ar_prd-75574/p
+2026-11-15 16:24,Fast Shop,radar,3319.0,220,https://site.fastshop.com.br/lava-louca-electrolux-14-servicos-inox-com-programa-lava-e-seca-50--ls14e-exls14e_prd-101220/p
+2026-11-15 16:24,Fast Shop,radar,3319.0,220,https://site.fastshop.com.br/lava-louca-electrolux-14-servicos-inox-com-programa-lava-e-seca-50--ls14e-exls14e_prd/p
+2026-11-15 16:24,Fast Shop,radar,3514.05,220,https://site.fastshop.com.br/lava-loucas-brastemp-com-smart-sensor-inox-com-15-servicos--05-programas-de-lavagem---blf61ar-brblf61ar_prd/p
+2026-11-15 16:24,Fast Shop,brastemp_blf62,4399.0,220,https://site.fastshop.com.br/lava-loucas-brastemp-eclipse-collection-black-stainless-com-15-servicos--05-programas-de-lavagem---blf62ap-brblf62ap_prd-66626/p
+2026-11-15 16:24,Fast Shop,radar,3849.0,220,https://site.fastshop.com.br/lava-loucas-electrolux-com-a-porta-inox--10-servicos--07-programas-de-lavagem-e-funcao-higienizar-compras---ll10x-exll10x_prd-4105/p
+2026-11-15 16:25,Fast Shop,brastemp_blf62,5190.43,220,https://site.fastshop.com.br/lava-loucas-brastemp-com-power-clean-inox-com-15-servicos--05-programas-de-lavagem---blf62a-brblf62ar_prd-75572/p
+2026-11-15 16:25,Fast Shop,radar,2999.0,220,https://site.fastshop.com.br/lava-loucas-electrolux-preta--10-servicos-com-programa-lava-e-seca-50----lp10e-exlp10e_prd-165411/p
+2026-11-15 16:25,Fast Shop,radar,2299.0,220,https://site.fastshop.com.br/lava-loucas-electrolux-14-servicos-inox-home-pro-com-05-programas-de-lavagem-e-funcao-higienizar---ls14x-exls14x_prd-100284/p
+2026-11-15 16:25,Fast Shop,radar,3390.55,220,https://site.fastshop.com.br/lava-loucas-14-servicos-com-smart-sensor-cor-inox---blf60ar-93709-98665/p
+2026-11-15 16:25,Fast Shop,radar,3401.0,220,https://site.fastshop.com.br/lava-loucas-brastemp-preta-com-15-servicos--05-programas-de-lavagem-e-smart-sensor---blf61a-brblf61aeana_prd-106832/p
+2026-11-15 16:26,Electrolux,radar,2706.55,220,https://loja.electrolux.com.br/lava-louca-electrolux-10-servicos-inox-com-programa-lava-e-seca-50---ls10e-/p
+2026-11-15 16:26,Electrolux,radar,3039.05,220,https://loja.electrolux.com.br/lava-loucas-electrolux-10-servicos-inox-com-funcao-higienizar-compras--ll10x-/p
+2026-11-15 16:26,Electrolux,radar,3299.0,220,https://loja.electrolux.com.br/lava-louca-electrolux-14-servicos-preta-com-programa-lava-e-seca-50-min-lp14e/p
+2026-11-15 16:26,Electrolux,electrolux_ll14x,4299.0,220,https://loja.electrolux.com.br/lava-loucas-electrolux-14-servicos-inox-com-funcao-higienizar-compras--ll14x-/p
+2026-11-15 16:26,Electrolux,radar,3229.05,220,https://loja.electrolux.com.br/lava-louca-electrolux-14-servicos-inox-com-programa-lava---seca-50-min--ls14e-/p
+2026-11-15 16:26,Electrolux,radar,2999.0,220,https://loja.electrolux.com.br/lava-louca-electrolux-10-servicos-preta-com-programa-lava-e-seca-50-min-lp10e/p
+2026-11-15 16:27,Brastemp,radar,3268.9,220,https://www.brastemp.com.br/lava-loucas-14-servicos-smart-sensor-inox-blf60ar/p
+2026-11-15 16:27,Brastemp,radar,3168.0,220,https://www.brastemp.com.br/lava-loucas-14-servicos-smart-sensor-branca-blf60ab-326183257/p
+2026-11-15 16:27,Brastemp,radar,3168.0,220,https://www.brastemp.com.br/lava-loucas-14-servicos-smart-sensor-branca-blf60ab/p
+2026-11-15 16:27,Brastemp,radar,3268.9,220,https://www.brastemp.com.br/lava-loucas-14-servicos-smart-sensor-inox-blf60ar-326183255/p
+2026-11-15 16:28,Midea,radar,2699.0,220,https://www.midea.com.br/lava-loucas-14-servicos-midea-cor-preta/p
+2026-11-15 16:28,Midea,radar,3299.0,220,https://www.midea.com.br/lava-loucas-14-servicos-midea-cinza/p
+2026-11-15 16:28,Midea,radar,2999.0,220,https://www.midea.com.br/lava-loucas-14-servicos-touch-plus-preta-midea/p
+2026-11-15 16:28,Midea,radar,3399.0,220,https://www.midea.com.br/lava-loucas-14-servicos-touch-plus-cinza-midea-1/p
+2026-11-15 16:28,Midea,radar,2899.0,220,https://www.midea.com.br/lava-loucas-10-servicos-inox-midea-smart-home/p
+2026-11-15 16:29,Midea,radar,3099.0,220,https://www.midea.com.br/lava-loucas-14-servicos-midea-cor-branca/p
+2026-11-15 16:29,Midea,radar,4199.0,220,https://www.midea.com.br/lava-loucas-16-servicos-inox-smart-home-midea/p
+2026-11-15 16:29,Midea,radar,5793.1,220,https://www.midea.com.br/kit-lava-e-seca-11kg-titanium-slim-healthguard-conectada-lava-loucas-14-servicos-cinza-midea/p
+2026-11-15 16:29,Midea,radar,2999.0,220,https://www.midea.com.br/lava-loucas-14-servicos-touch-plus-branca-midea-1/p
+2026-11-15 16:29,Midea,radar,3998.95,220,https://www.midea.com.br/lava-loucas-16-servicos-black-inox-smart-home-midea/p
+2026-11-15 16:30,Midea,radar,10099.0,220,https://www.midea.com.br/kit-lava-loucas-14-servicos-black-inox-smarthome-lava-e-seca-11kg-titanium-slim-healthguard-conectada--robo-aspirador-m7-2-em-1-preto/p
+2026-11-15 16:30,Midea,radar,5898.0,220,https://www.midea.com.br/kit-lava-e-seca-11kg-branca-slim-healthguard-conectada-lava-loucas-14-servicos-branca-midea/p
+2026-11-15 16:31,Midea,radar,6524.21,220,https://www.midea.com.br/kit-lava-e-seca-10-5kg-titanium-healthguard-e-lava-loucas-14-servicos-preta-midea/p
+2026-11-15 20:27,Amazon,brastemp_blf62,4556.2,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Servi%C3%A7os-Brastemp-Eclipse-Collection/dp/B0DDZR2ZMJ
+2026-11-15 20:28,Amazon,panasonic_np6m2,4688.1,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Embutir-Panasonic-Servi%C3%A7os-NP-6M2FTKBRP/dp/B07X47VCQ8
+2026-11-15 20:28,Amazon,panasonic_np6m2,4749.05,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Panasonic-Servi%C3%A7os-NP-6M1MBKBRP-NP-6M1MBKBR/dp/B082YCN9T4
+2026-11-15 20:28,Amazon,radar,2519.1,220,https://www.amazon.com.br/LAVA-LOUCAS-MIDEA-SERVICOS-CINZA-220V/dp/B096HDHXQH
+2026-11-15 20:29,Amazon,radar,3283.46,220,https://www.amazon.com.br/Electrolux-Lava-Lou%C3%A7a-Servi%C3%A7os-Programa-LS14E/dp/B0FLQJJ47J
+2026-11-15 20:29,Amazon,radar,2435.9,220,https://www.amazon.com.br/Lou%C3%A7as-Servi%C3%A7os-Philco-Digital-PLL14A/dp/B0H2WWFRH4
+2026-11-15 20:29,Amazon,radar,1889.0,220,https://www.amazon.com.br/Lou%C3%A7as-HQ-Digital-Servi%C3%A7os-HQ-LL14SD/dp/B0GWJHCZQX
+2026-11-15 20:29,Amazon,radar,2706.54,220,https://www.amazon.com.br/Electrolux-Lava-Lou%C3%A7a-Servi%C3%A7os-Programa-LS10E/dp/B0FH5R4M75
+2026-11-15 20:29,Amazon,radar,3399.0,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-Servi%C3%A7os-Cinza-Touch-Midea/dp/B0HJ35PKHW
+2026-11-15 20:30,Amazon,radar,2971.21,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-EOS-Premium-Servi%C3%A7os-ELL142S/dp/B0F7Y4X8HY
+2026-11-15 20:30,Amazon,radar,3349.0,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Servi%C3%A7os-Brastemp-Smart-Sensor/dp/B0DKG44NYQ
+2026-11-15 20:30,Amazon,radar,2971.21,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-EOS-Servi%C3%A7os-ELL142P-220V/dp/B0F7J79NL4
+2026-11-15 20:30,Amazon,radar,2662.27,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-EOS-Premium-Servi%C3%A7os-ELL142B/dp/B0F7J3GCBB
+2026-11-15 20:30,Amazon,radar,2948.99,220,https://www.amazon.com.br/Electrolux-Lava-Lou%C3%A7as-Servi%C3%A7os-Programa-Higieniza%C3%A7%C3%A3o/dp/B0H7F85KND
+2026-11-15 20:30,Amazon,radar,930.04,220,https://www.amazon.com.br/Praxis-Lou%C3%A7a-Port%C3%A1til-Programas-Lavagem/dp/B0DZXZTC37
+2026-11-15 20:31,Amazon,radar,2378.99,220,https://www.amazon.com.br/Lou%C3%A7as-HQ-Digital-Servi%C3%A7os-HQ-LL14SD/dp/B0GXBL9N2J
+2026-11-15 20:31,Amazon,radar,2899.0,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-servi%C3%A7os-Midea-Smart/dp/B0DVHYXWFC
+2026-11-15 20:31,Amazon,radar,5034.04,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Samsung-servi%C3%A7os-Black-Inox/dp/B0DK469LHP
+2026-11-15 20:32,Amazon,radar,3894.05,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Brastemp-Servi%C3%A7os-Smart-Sensor/dp/B0DKG4TTNP
+2026-11-15 20:32,Amazon,radar,4749.05,220,https://www.amazon.com.br/Samsung-Lava-lou%C3%A7as-servi%C3%A7os-Inox-220V/dp/B0DK46WSWD
+2026-11-15 20:33,Fast Shop,radar,3514.05,220,https://site.fastshop.com.br/lava-loucas-brastemp-com-smart-sensor-inox-com-15-servicos--05-programas-de-lavagem---blf61ar-brblf61ar_prd-75574/p
+2026-11-15 20:33,Fast Shop,radar,3319.0,220,https://site.fastshop.com.br/lava-louca-electrolux-14-servicos-inox-com-programa-lava-e-seca-50--ls14e-exls14e_prd-101220/p
+2026-11-15 20:33,Fast Shop,brastemp_blf62,4399.0,220,https://site.fastshop.com.br/lava-loucas-brastemp-eclipse-collection-black-stainless-com-15-servicos--05-programas-de-lavagem---blf62ap-brblf62ap_prd/p
+2026-11-15 20:33,Fast Shop,radar,3514.05,220,https://site.fastshop.com.br/lava-loucas-brastemp-com-smart-sensor-inox-com-15-servicos--05-programas-de-lavagem---blf61ar-brblf61ar_prd/p
+2026-11-15 20:34,Fast Shop,brastemp_blf62,4399.0,220,https://site.fastshop.com.br/lava-loucas-brastemp-eclipse-collection-black-stainless-com-15-servicos--05-programas-de-lavagem---blf62ap-brblf62ap_prd-66626/p
+2026-11-15 20:34,Fast Shop,radar,3849.0,220,https://site.fastshop.com.br/lava-loucas-electrolux-com-a-porta-inox--10-servicos--07-programas-de-lavagem-e-funcao-higienizar-compras---ll10x-exll10x_prd-4105/p
+2026-11-15 20:34,Fast Shop,brastemp_blf62,5190.43,220,https://site.fastshop.com.br/lava-loucas-brastemp-com-power-clean-inox-com-15-servicos--05-programas-de-lavagem---blf62a-brblf62ar_prd-75572/p
+2026-11-15 20:34,Fast Shop,radar,2999.0,220,https://site.fastshop.com.br/lava-loucas-electrolux-preta--10-servicos-com-programa-lava-e-seca-50----lp10e-exlp10e_prd-165411/p
+2026-11-15 20:34,Fast Shop,radar,2499.0,220,https://site.fastshop.com.br/lava-loucas-electrolux-14-servicos-inox-home-pro-com-05-programas-de-lavagem-e-funcao-higienizar---ls14x-exls14x_prd-100284/p
+2026-11-15 20:34,Fast Shop,radar,2499.0,220,https://site.fastshop.com.br/lava-loucas-14-servicos-com-smart-sensor-cor-inox---blf60ar-93709-98665/p
+2026-11-15 20:34,Fast Shop,radar,3401.0,220,https://site.fastshop.com.br/lava-loucas-brastemp-preta-com-15-servicos--05-programas-de-lavagem-e-smart-sensor---blf61a-brblf61aeana_prd-106832/p
+2026-11-15 20:35,Electrolux,radar,3229.05,220,https://loja.electrolux.com.br/lava-louca-electrolux-14-servicos-inox-com-programa-lava---seca-50-min--ls14e-/p
+2026-11-15 20:35,Electrolux,radar,2706.55,220,https://loja.electrolux.com.br/lava-louca-electrolux-10-servicos-inox-com-programa-lava-e-seca-50---ls10e-/p
+2026-11-15 20:35,Electrolux,radar,3039.05,220,https://loja.electrolux.com.br/lava-loucas-electrolux-10-servicos-inox-com-funcao-higienizar-compras--ll10x-/p
+2026-11-15 20:35,Electrolux,radar,3299.0,220,https://loja.electrolux.com.br/lava-louca-electrolux-14-servicos-preta-com-programa-lava-e-seca-50-min-lp14e/p
+2026-11-15 20:36,Electrolux,electrolux_ll14x,4299.0,220,https://loja.electrolux.com.br/lava-loucas-electrolux-14-servicos-inox-com-funcao-higienizar-compras--ll14x-/p
+2026-11-15 20:36,Electrolux,radar,2999.0,220,https://loja.electrolux.com.br/lava-louca-electrolux-10-servicos-preta-com-programa-lava-e-seca-50-min-lp10e/p
+2026-11-15 20:36,Brastemp,radar,3268.9,220,https://www.brastemp.com.br/lava-loucas-14-servicos-smart-sensor-inox-blf60ar/p
+2026-11-15 20:36,Brastemp,radar,3268.9,220,https://www.brastemp.com.br/lava-loucas-14-servicos-smart-sensor-branca-blf60ab-326183257/p
+2026-11-15 20:37,Brastemp,radar,3268.9,220,https://www.brastemp.com.br/lava-loucas-14-servicos-smart-sensor-branca-blf60ab/p
+2026-11-15 20:37,Brastemp,radar,3268.9,220,https://www.brastemp.com.br/lava-loucas-14-servicos-smart-sensor-inox-blf60ar-326183255/p
+2026-11-15 20:37,Midea,radar,2699.0,220,https://www.midea.com.br/lava-loucas-14-servicos-midea-cor-preta/p
+2026-11-15 20:37,Midea,radar,3299.0,220,https://www.midea.com.br/lava-loucas-14-servicos-midea-cinza/p
+2026-11-15 20:37,Midea,radar,2999.0,220,https://www.midea.com.br/lava-loucas-14-servicos-touch-plus-preta-midea/p
+2026-11-15 20:37,Midea,radar,3399.0,220,https://www.midea.com.br/lava-loucas-14-servicos-touch-plus-cinza-midea-1/p
+2026-11-15 20:38,Midea,radar,2899.0,220,https://www.midea.com.br/lava-loucas-10-servicos-inox-midea-smart-home/p
+2026-11-15 20:38,Midea,radar,3099.0,220,https://www.midea.com.br/lava-loucas-14-servicos-midea-cor-branca/p
+2026-11-15 20:38,Midea,radar,4199.0,220,https://www.midea.com.br/lava-loucas-16-servicos-inox-smart-home-midea/p
+2026-11-15 20:38,Midea,radar,5793.1,220,https://www.midea.com.br/kit-lava-e-seca-11kg-titanium-slim-healthguard-conectada-lava-loucas-14-servicos-cinza-midea/p
+2026-11-15 20:38,Midea,radar,2999.0,220,https://www.midea.com.br/lava-loucas-14-servicos-touch-plus-branca-midea-1/p
+2026-11-15 20:39,Midea,radar,3998.95,220,https://www.midea.com.br/lava-loucas-16-servicos-black-inox-smart-home-midea/p
+2026-11-15 20:39,Midea,radar,10099.0,220,https://www.midea.com.br/kit-lava-loucas-14-servicos-black-inox-smarthome-lava-e-seca-11kg-titanium-slim-healthguard-conectada--robo-aspirador-m7-2-em-1-preto/p
+2026-11-15 20:40,Midea,radar,5898.0,220,https://www.midea.com.br/kit-lava-e-seca-11kg-branca-slim-healthguard-conectada-lava-loucas-14-servicos-branca-midea/p
+2026-11-15 20:40,Midea,radar,6524.21,220,https://www.midea.com.br/kit-lava-e-seca-10-5kg-titanium-healthguard-e-lava-loucas-14-servicos-preta-midea/p
+2026-11-21 14:19,Amazon,brastemp_blf62,4399.0,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Servi%C3%A7os-Brastemp-Eclipse-Collection/dp/B0DDZR2ZMJ
+2026-11-21 14:20,Amazon,panasonic_np6m2,4848.05,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Embutir-Panasonic-Servi%C3%A7os-NP-6M2FTKBRP/dp/B07X47VCQ8
+2026-11-21 14:20,Amazon,panasonic_np6m2,4749.05,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Panasonic-Servi%C3%A7os-NP-6M1MBKBRP-NP-6M1MBKBR/dp/B082YCN9T4
+2026-11-21 14:20,Amazon,radar,3271.79,220,https://www.amazon.com.br/Electrolux-Lava-Lou%C3%A7a-Servi%C3%A7os-Programa-LS14E/dp/B0FLQJJ47J
+2026-11-21 14:20,Amazon,radar,2491.9,220,https://www.amazon.com.br/Lou%C3%A7as-Servi%C3%A7os-Philco-Digital-PLL14A/dp/B0H2WWFRH4
+2026-11-21 14:20,Amazon,radar,2879.1,220,https://www.amazon.com.br/LAVA-LOUCAS-MIDEA-SERVICOS-CINZA-220V/dp/B096HDHXQH
+2026-11-21 14:21,Amazon,radar,1889.0,220,https://www.amazon.com.br/Lou%C3%A7as-HQ-Digital-Servi%C3%A7os-HQ-LL14SD/dp/B0GWJHCZQX
+2026-11-21 14:21,Amazon,radar,3183.53,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Servi%C3%A7os-Brastemp-Smart-Sensor/dp/B0DKG4KN2Y
+2026-11-21 14:21,Amazon,radar,3399.0,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-Servi%C3%A7os-Cinza-Touch-Midea/dp/B0HJ35PKHW
+2026-11-21 14:21,Amazon,radar,2626.65,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-EOS-Servi%C3%A7os-ELL142P-220V/dp/B0F7J79NL4
+2026-11-21 14:21,Amazon,radar,3181.55,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-servi%C3%A7os-Smart-Sensor/dp/B0CJ8XP93P
+2026-11-21 14:21,Amazon,radar,2953.55,220,https://www.amazon.com.br/LAVA-LOUCAS-MIDEA-SERVICOS-BRANCA-220V/dp/B093PBBX5D
+2026-11-21 14:22,Amazon,radar,2702.52,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-EOS-Premium-Servi%C3%A7os-ELL142S/dp/B0F7Y4X8HY
+2026-11-21 14:22,Amazon,radar,2431.29,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-EOS-Premium-Servi%C3%A7os-ELL142B/dp/B0F7J3GCBB
+2026-11-21 14:22,Amazon,radar,2620.24,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-Servi%C3%A7os-Titanium-Ell143s/dp/B0HS1GD4QS
+2026-11-21 14:22,Amazon,radar,3198.99,220,https://www.amazon.com.br/Electrolux-Lava-Lou%C3%A7a-Servi%C3%A7os-Programa-LS10E/dp/B0FH5R4M75
+2026-11-21 14:22,Amazon,radar,3419.1,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Servi%C3%A7os-Brastemp-Smart-Sensor/dp/B0DKG44NYQ
+2026-11-21 14:22,Amazon,radar,3865.55,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-Servi%C3%A7os-Black-Smart-Midea/dp/B0H4S3WRGB
+2026-11-21 14:22,Amazon,radar,3010.55,220,https://www.amazon.com.br/Electrolux-Lava-Lou%C3%A7as-Servi%C3%A7os-Programa-Higieniza%C3%A7%C3%A3o/dp/B0H7F85KND
+2026-11-21 14:22,Amazon,radar,2378.99,220,https://www.amazon.com.br/Lou%C3%A7as-HQ-Digital-Servi%C3%A7os-HQ-LL14SD/dp/B0GXBL9N2J
+2026-11-21 14:23,Amazon,radar,3894.05,220,https://www.amazon.com.br/Lava-lou%C3%A7as-Brastemp-Servi%C3%A7os-Smart-Sensor/dp/B0DKG4TTNP
+2026-11-21 14:24,Amazon,radar,2899.0,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-servi%C3%A7os-Midea-Smart/dp/B0DVHYXWFC
+2026-11-21 14:24,Amazon,radar,3865.55,220,https://www.amazon.com.br/Lava-Lou%C3%A7as-Servi%C3%A7os-Black-Smart-Midea/dp/B0H4RLJG8V
+2026-11-21 14:25,Fast Shop,brastemp_blf62,4399.0,220,https://site.fastshop.com.br/lava-loucas-brastemp-eclipse-collection-black-stainless-com-15-servicos--05-programas-de-lavagem---blf62ap-brblf62ap_prd-66626/p
+2026-11-21 14:25,Fast Shop,radar,3239.1,220,https://site.fastshop.com.br/lava-louca-electrolux-14-servicos-inox-com-programa-lava-e-seca-50--ls14e-exls14e_prd-101220/p
+2026-11-21 14:25,Fast Shop,brastemp_blf62,5190.43,220,https://site.fastshop.com.br/lava-loucas-brastemp-com-power-clean-inox-com-15-servicos--05-programas-de-lavagem---blf62a-brblf62ar_prd/p
+2026-11-21 14:25,Fast Shop,radar,3459.0,220,https://site.fastshop.com.br/lava-loucas-brastemp-com-smart-sensor-inox-com-15-servicos--05-programas-de-lavagem---blf61ar-brblf61ar_prd/p
+2026-11-21 14:25,Fast Shop,radar,3569.0,220,https://site.fastshop.com.br/lava-loucas-electrolux-preta--14-servicos-com-programa-lava-e-seca-50----lp14e-exlp14e_prd/p
+2026-11-21 14:26,Fast Shop,radar,3459.0,220,https://site.fastshop.com.br/lava-loucas-brastemp-com-smart-sensor-inox-com-15-servicos--05-programas-de-lavagem---blf61ar-brblf61ar_prd-75574/p
+2026-11-21 14:26,Fast Shop,radar,3899.0,220,https://site.fastshop.com.br/lava-loucas-electrolux-com-a-porta-inox--10-servicos--07-programas-de-lavagem-e-funcao-higienizar-compras---ll10x-exll10x_prd-4105/p
+2026-11-21 14:26,Fast Shop,brastemp_blf62,5190.43,220,https://site.fastshop.com.br/lava-loucas-brastemp-com-power-clean-inox-com-15-servicos--05-programas-de-lavagem---blf62a-brblf62ar_prd-75572/p
+2026-11-21 14:26,Fast Shop,electrolux_ll14x,4869.0,220,https://site.fastshop.com.br/lava-loucas-electrolux-com-a-porta-inox--14-servicos--07-programas-de-lavagem-e-funcao-higienizar-compras---ll14x--exll14x_prd-4108/p
+2026-11-21 14:26,Fast Shop,radar,1329.0,220,https://site.fastshop.com.br/lava-loucas-electrolux-14-servicos-inox-home-pro-com-05-programas-de-lavagem-e-funcao-higienizar---ls14x-exls14x_prd-100284/p
+2026-11-21 14:26,Fast Shop,radar,3059.0,220,https://site.fastshop.com.br/lava-loucas-electrolux-preta--10-servicos-com-programa-lava-e-seca-50----lp10e-exlp10e_prd-165411/p
+2026-11-21 14:27,Fast Shop,radar,1589.0,220,https://site.fastshop.com.br/lava-loucas-brastemp-15-servicos-com-smart-sensor---blf61ae-63592-67026/p
+2026-11-21 14:27,Fast Shop,radar,3230.95,220,https://site.fastshop.com.br/lava-loucas-brastemp-preta-com-15-servicos--05-programas-de-lavagem-e-smart-sensor---blf61a-brblf61aeana_prd-106832/p
+2026-11-21 14:27,Electrolux,radar,4499.0,220,https://loja.electrolux.com.br/lava-loucas-electrolux-10-servicos-inox-com-funcao-higienizar-compras--ll10x-/p
+2026-11-21 14:27,Electrolux,radar,3599.0,220,https://loja.electrolux.com.br/lava-louca-electrolux-14-servicos-inox-com-programa-lava---seca-50-min--ls14e-/p
+2026-11-21 14:27,Electrolux,radar,3199.0,220,https://loja.electrolux.com.br/lava-louca-electrolux-10-servicos-inox-com-programa-lava-e-seca-50---ls10e-/p
+2026-11-21 14:28,Electrolux,radar,3599.0,220,https://loja.electrolux.com.br/lava-louca-electrolux-14-servicos-preta-com-programa-lava-e-seca-50-min-lp14e/p
+2026-11-21 14:28,Brastemp,radar,3199.06,220,https://www.brastemp.com.br/lava-loucas-14-servicos-smart-sensor-inox-blf60ar/p
+2026-11-21 14:28,Brastemp,radar,3168.0,220,https://www.brastemp.com.br/lava-loucas-14-servicos-smart-sensor-branca-blf60ab-326183257/p
+2026-11-21 14:28,Brastemp,radar,3168.0,220,https://www.brastemp.com.br/lava-loucas-14-servicos-smart-sensor-branca-blf60ab/p
+2026-11-21 14:29,Brastemp,radar,3199.06,220,https://www.brastemp.com.br/lava-loucas-14-servicos-smart-sensor-inox-blf60ar-326183255/p
+2026-11-21 14:29,Midea,radar,2699.0,220,https://www.midea.com.br/lava-loucas-14-servicos-midea-cor-preta/p
+2026-11-21 14:29,Midea,radar,2999.0,220,https://www.midea.com.br/lava-loucas-14-servicos-touch-plus-preta-midea/p
+2026-11-21 14:29,Midea,radar,2944.05,220,https://www.midea.com.br/lava-loucas-14-servicos-midea-cinza/p
+2026-11-21 14:29,Midea,radar,3399.0,220,https://www.midea.com.br/lava-loucas-14-servicos-touch-plus-cinza-midea-1/p
+2026-11-21 14:30,Midea,radar,3299.0,220,https://www.midea.com.br/lava-loucas-10-servicos-inox-midea-smart-home/p
+2026-11-21 14:30,Midea,radar,4199.0,220,https://www.midea.com.br/lava-loucas-16-servicos-inox-smart-home-midea/p
+2026-11-21 14:30,Midea,radar,5793.1,220,https://www.midea.com.br/kit-lava-e-seca-11kg-titanium-slim-healthguard-conectada-lava-loucas-14-servicos-cinza-midea/p
+2026-11-21 14:30,Midea,radar,2999.0,220,https://www.midea.com.br/lava-loucas-14-servicos-touch-plus-branca-midea-1/p
+2026-11-21 14:31,Midea,radar,3099.0,220,https://www.midea.com.br/lava-loucas-14-servicos-midea-cor-branca/p
+2026-11-21 14:31,Midea,radar,3998.95,220,https://www.midea.com.br/lava-loucas-16-servicos-black-inox-smart-home-midea/p
+2026-11-21 14:31,Midea,radar,10099.0,220,https://www.midea.com.br/kit-lava-loucas-14-servicos-black-inox-smarthome-lava-e-seca-11kg-titanium-slim-healthguard-conectada--robo-aspirador-m7-2-em-1-preto/p
+2026-11-21 14:32,Midea,radar,5898.0,220,https://www.midea.com.br/kit-lava-e-seca-11kg-branca-slim-healthguard-conectada-lava-loucas-14-servicos-branca-midea/p
+2026-11-21 14:32,Midea,radar,6524.21,220,https://www.midea.com.br/kit-lava-e-seca-10-5kg-titanium-healthguard-e-lava-loucas-14-servicos-preta-midea/p

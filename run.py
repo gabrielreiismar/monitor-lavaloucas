@@ -10,12 +10,14 @@
 from __future__ import annotations
 
 import argparse
+import dataclasses
 import datetime as dt
 import random
 import time
 from pathlib import Path
 
 import yaml
+from zoneinfo import ZoneInfo
 from dotenv import load_dotenv
 
 from lavaloucas.notify import format_message, send_telegram
@@ -113,6 +115,11 @@ def sweep(cfg: dict, db: Storage, pw_ctx, only_store=None) -> int:
             v = evaluate(offer, b["meta"], b["opportunity_cap"], b["opportunity_min_discount"],
                          b["accept_bivolt"], b.get("require_inox", False),
                          b.get("inox_unknown_ok", True), tuple(b.get("required_features", [])))
+            if v.alert and offer.features is not None:
+                faltam = [f for f in b.get("preferred_features", []) if f not in offer.features]
+                if faltam:
+                    v = dataclasses.replace(v, reason=v.reason + " · ⚠️ anúncio não cita: " +
+                                            ", ".join(f.replace("_", " ") for f in faltam))
             print(f"  {store_name:14} R$ {d.price:>8,.0f} {str(offer.voltage):>6}V  "
                   f"{'ALERTA ' + v.tier if v.alert else 'ignorado: ' + v.reason:40} {c.title[:55]}")
             if v.alert and db.should_alert(c.url, v.tier, d.price, cfg["schedule"]["alert_cooldown_hours"]):
@@ -128,6 +135,9 @@ def heartbeat(cfg: dict) -> None:
     """Avisa o GitHub que o Mac está vivo (o reserva na nuvem só assume se este sinal envelhecer)."""
     import shutil
     import subprocess
+    import os
+    if os.environ.get("NO_HEARTBEAT") == "1":
+        return
     repo = (cfg.get("backup") or {}).get("repo")
     gh = shutil.which("gh") or str(Path.home() / ".local/bin/gh")
     if not repo or not Path(gh).exists():
@@ -166,7 +176,8 @@ def gate(cfg: dict) -> bool:
 def interval_minutes(cfg: dict) -> int:
     s = cfg["schedule"]
     a, z = (dt.date.fromisoformat(x) for x in s["blackfriday_window"])
-    return s["blackfriday_minutes"] if a <= dt.date.today() <= z else s["normal_minutes"]
+    today = dt.datetime.now(ZoneInfo("America/Sao_Paulo")).date()
+    return s["blackfriday_minutes"] if a <= today <= z else s["normal_minutes"]
 
 
 def main():
@@ -177,6 +188,7 @@ def main():
     ap.add_argument("--store", choices=list(SCRAPERS))
     ap.add_argument("--show", action="store_true", help="navegador visível")
     ap.add_argument("--test-telegram", action="store_true")
+    ap.add_argument("--max-minutes", type=int, default=0, help="(GitHub) encerra o loop após N minutos")
     ap.add_argument("--gate", action="store_true", help="(GitHub) escreve run=true/false em GITHUB_OUTPUT")
     args = ap.parse_args()
 
@@ -207,9 +219,10 @@ def main():
             viewport={"width": 1366, "height": 850},
             args=["--disable-blink-features=AutomationControlled"],
         )
+        deadline = time.time() + args.max_minutes * 60 if args.max_minutes else None
         try:
             while True:
-                hour = dt.datetime.now().hour
+                hour = dt.datetime.now(ZoneInfo("America/Sao_Paulo")).hour
                 q0, q1 = cfg["schedule"]["quiet_hours"]
                 if not (q0 <= hour < q1):
                     print(f"\n=== varredura {dt.datetime.now():%d/%m %H:%M} ===")
@@ -219,6 +232,9 @@ def main():
                 if not args.loop:
                     break
                 wait = interval_minutes(cfg) * 60 * random.uniform(0.85, 1.15)
+                if deadline and time.time() + wait > deadline:
+                    print("fim do turno: o próximo job assume")
+                    break
                 print(f"próxima em {wait/60:.0f} min")
                 end = time.time() + wait
                 while time.time() < end:  # espera em fatias, avisando o GitHub que o Mac está vivo

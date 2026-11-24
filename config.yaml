@@ -13,7 +13,9 @@ budget:
   inox_unknown_ok: true   # título sem cor: deixa passar (confira o acabamento no anúncio)
   # Funções essenciais (o anúncio precisa mencionar TODAS na ficha/descrição).
   # Para afrouxar, apague uma linha. Opções: ciclo_rapido, sensor_sujeira, meia_carga, higienizacao
-  required_features: [ciclo_rapido, sensor_sujeira, meia_carga, higienizacao]
+  required_features: [ciclo_rapido, sensor_sujeira]
+  # Desejáveis: não bloqueiam; o alerta avisa quando o anúncio não cita (confira no site)
+  preferred_features: [meia_carga, higienizacao]
 
 schedule:
   normal_minutes: 120    # até 22/11

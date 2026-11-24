@@ -1,6 +1,7 @@
 name: Reserva na nuvem
 
-# Roda a cada 30 min, mas só varre se o Mac estiver sem dar sinal (ver run.py --gate).
+# Turno longo: um job fica ~5h45 varrendo as lojas no ritmo do config (30 min na Black Friday),
+# e no fim dispara o próximo turno sozinho. O cron abaixo é só vigia: religa a corrente se ela quebrar.
 on:
   schedule:
     - cron: "*/30 * * * *"
@@ -12,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: reserva
@@ -20,12 +22,14 @@ concurrency:
 jobs:
   varrer:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 360
     env:
       MAC_HEARTBEAT: ${{ vars.MAC_HEARTBEAT }}
       FORCE: ${{ github.event.inputs.force }}
+      NO_HEARTBEAT: "1"
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,7 +37,7 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Decidir se varre
+      - name: Decidir se roda
         id: gate
         run: python run.py --gate
       - name: Histórico de preços (cache)
@@ -46,9 +50,9 @@ jobs:
       - name: Instalar Chromium
         if: steps.gate.outputs.run == 'true'
         run: playwright install --with-deps chromium
-      - name: Varredura
+      - name: Varrer em loop (turno de ~5h45)
         if: steps.gate.outputs.run == 'true'
-        run: mkdir -p data && python run.py --once
+        run: mkdir -p data && python run.py --loop --max-minutes 335
       - name: Publicar histórico de preços (branch historico)
         if: steps.gate.outputs.run == 'true' && always()
         run: |
@@ -57,3 +61,6 @@ jobs:
           git config user.name "robo" && git config user.email "robo@users.noreply.github.com"
           git add precos.csv && git commit -q -m "histórico $(date -u +%F\ %H:%M)"
           git push -f -q "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" historico
+      - name: Disparar o próximo turno
+        if: steps.gate.outputs.run == 'true' && always()
+        run: gh workflow run reserva.yml --ref main -f force=1

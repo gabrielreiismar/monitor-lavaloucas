@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import os
+import re
 
 import requests
 
@@ -10,15 +11,20 @@ from .rules import Offer, Verdict
 ICON = {"META": "🟢", "OPORTUNIDADE": "🔥"}
 
 
+def brl(v: float) -> str:
+    return f"{v:,.2f}".replace(",", "#").replace(".", ",").replace("#", ".")  # 2.435,90
+
+
 def format_message(o: Offer, v: Verdict) -> str:
     head = {"META": "DENTRO DO ORÇAMENTO", "OPORTUNIDADE": "OPORTUNIDADE RARA"}[v.tier]
+    reason = re.sub(r"R\$ ([\d,\.]+)", lambda m: "R$ " + brl(float(m.group(1).replace(",", ""))), v.reason)
     return (
         f"{ICON[v.tier]} <b>{head}</b>\n"
         f"{o.title}\n"
-        f"<b>R$ {o.price:,.2f}</b> · {o.voltage or '?'}V · {o.store}\n"
-        f"{v.reason}\n"
+        f"<b>R$ {brl(o.price)}</b> · {o.voltage or '?'}V · {o.store}\n"
+        f"{reason}\n"
         f"{o.url}"
-    ).replace(",", "#").replace(".", ",").replace("#", ".")  # formato BR
+    )
 
 
 def send_telegram(text: str) -> bool:
